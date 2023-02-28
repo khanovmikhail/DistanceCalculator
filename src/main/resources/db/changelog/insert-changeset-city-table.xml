@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+        <changeSet id="insert-into-city" author="khanovmikhail">
+                <insert tableName="city">
+                        <column name="name" value="Samara"/>
+                        <column name="latitude" value="53.241505"/>
+                        <column name="longitude" value="50.221245"/>
+                </insert>
+                <insert tableName="city">
+                        <column name="name" value="Penza"/>
+                        <column name="latitude" value="53.2007"/>
+                        <column name="longitude" value="45.0046"/>
+                </insert>
+                <insert tableName="city">
+                        <column name="name" value="Kazan"/>
+                        <column name="latitude" value="55.796391"/>
+                        <column name="longitude" value="49.108891"/>
+                </insert>
+        </changeSet>
+</databaseChangeLog>

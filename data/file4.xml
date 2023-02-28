@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <city>
+        <name>Togliatti</name>
+        <latitude>53.11</latitude>
+        <longitude>49.25</longitude>
+    </city>
+    <city>
+        <name>Moscow</name>
+        <latitude>55.45</latitude>
+        <longitude>37.37</longitude>
+    </city>
+    <city>
+        <name>Volgograd</name>
+        <latitude>48.41</latitude>
+        <longitude>44.28</longitude>
+    </city>
+    <city>
+        <name>Syzran</name>
+        <latitude>53.10</latitude>
+        <longitude>48.28</longitude>
+    </city>
+    <city>
+        <name>Tokyo</name>
+        <latitude>35.41</latitude>
+        <longitude>139.36</longitude>
+    </city>
+</data>
