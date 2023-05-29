@@ -1,6 +1,5 @@
 # Distance Calculator
 Web service (REST) application for distance calculation.
-Test webhook.
 
 ## 1. Technologies
 1. SpringBoot + Tomcat
