@@ -43,6 +43,6 @@ public class MyRESTController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello World";
+        return "Hello Whole World";
     }
 }
