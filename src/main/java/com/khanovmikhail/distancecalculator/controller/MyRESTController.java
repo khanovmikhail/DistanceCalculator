@@ -40,9 +40,4 @@ public class MyRESTController {
         uploadFileService.uploadXml(multipartFile);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-    @GetMapping("/hello")
-    public String hello(){
-        return "Hello Whole World";
-    }
 }
